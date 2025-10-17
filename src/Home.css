@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset default body margin */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  min-height: 100vh; /* full screen feel */
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, rgb(4, 83, 4), #0aaf0a);
+  color: white;
+}
+
+.committee-preview {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.projects-preview {
+  background: #eaeaea;
+  color: #222;
+}
+
+.contact-preview {
+  background: #f4f4f4;
+  color: #111;
+}
+
+.cta-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgb(4, 83, 4);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px; /* pill-shaped */
+  cursor: pointer;
+  /* transition: background 0.3s ease; */
+}
+
+.cta-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-btn:hover {
+  background: #0aaf0a;
+}

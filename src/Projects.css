@@ -1,0 +1,62 @@
+.projects_container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects_intro {
+  margin: 2rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.projects_grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project_card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project_photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.project_name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.project_catchphrase {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.25rem 0;
+  font-style: italic;
+}
+
+.project_description {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  color: #444;
+  text-align: left;
+}
