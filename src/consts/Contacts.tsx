@@ -11,7 +11,7 @@ export const contacts = [
   },
   {
     method: "Instagram",
-    name: "@eoee4c",
+    name: "@uoee4c",
     icon: instagramIcon,
     link: "https://instagram.com/uoee4c",
   },
