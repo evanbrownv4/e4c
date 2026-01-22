@@ -1,18 +1,18 @@
-import bioblocks from "./assets/project_bioblocks.png"
-import precious_plastics from "./assets/project_preciousplastics.png"
-import wind_over_waves from "./assets/project_windoverwaves.png"
-import winds_of_change from "./assets/project_windsofchange.png"
-import tide_tech from "./assets/project_tidetech.png"
-import project_peru from "./assets/project_peru.png"
-import project_romania from "./assets/project_romania.png"
-import project_cambodia from "./assets/project_cambodia.png"
+import bioblocks from "../assets/project_bioblocks.png"
+import precious_plastics from "../assets/project_preciousplastics.png"
+import wind_over_waves from "../assets/project_windoverwaves.png"
+import winds_of_change from "../assets/project_windsofchange.png"
+import tide_tech from "../assets/project_tidetech.png"
+import project_peru from "../assets/project_peru.png"
+import project_romania from "../assets/project_romania.png"
+import project_cambodia from "../assets/project_cambodia.png"
 
 
 export const projects = [
     {
         name: "BioBlocks",
         catchphrase: "Growing the future of sustainable construction.",
-        description: "We’re using mycelium, the root system of mushrooms, to create a natural and low-carbon alternative to concrete.",
+        description: "We're using mycelium, the root system of mushrooms, to create a natural and low-carbon alternative to concrete.",
         photo: bioblocks
     },
     {

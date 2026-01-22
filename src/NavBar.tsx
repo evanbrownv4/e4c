@@ -17,7 +17,7 @@ export default function TitleCard() {
     <div className="titleCard">
       <div className="titleGroup">
         <E4CLogo />
-        <h1 className="titleText">Engineering For Change</h1>
+        <h1 className="titleText">Engineering 4 Change</h1>
       </div>
 
       <div className="navLinks">

@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
-import Home from "./Home.tsx"
-import Committee from "./Committee.tsx"
-import Projects from "./Projects.tsx"
-import ContactUs from "./ContactUs.tsx"
+import Home from "./pages/Home.tsx"
+import Committee from "./pages/Committee.tsx"
+import Projects from "./pages/Projects.tsx"
+import ContactUs from "./pages/ContactUs.tsx"
 import ScrollToTop from "./ScrollToTop.tsx"
 import NavBar from "./NavBar.tsx"
 

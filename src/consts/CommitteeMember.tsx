@@ -1,23 +1,23 @@
-import amelia_photo from "./assets/committee_amelia.jpeg"
-import charlotte_photo from "./assets/committee_charlotte.jpeg"
-import jackie_photo from "./assets/committee_jackie.jpeg"
-import henri_photo from "./assets/committee_henri.jpeg"
-import thian_photo from "./assets/committee_thian.jpg"
-import kelly_photo from "./assets/committee_kelly.jpeg"
+import amelia_photo from "../assets/committee_amelia.jpeg"
+import charlotte_photo from "../assets/committee_charlotte.jpeg"
+import jackie_photo from "../assets/committee_jackie.jpeg"
+import henri_photo from "../assets/committee_henri.jpeg"
+import thian_photo from "../assets/committee_thian.jpg"
+import kelly_photo from "../assets/committee_kelly.jpeg"
 
-export const exec_committee = [
+export const execCommittee = [
     {
         name: "Amelia Wilkinson",
         position: "President",
         photo: amelia_photo,
         bio: "My role in E4C is to chair meetings, oversee all committee positions, and provide help and support wherever needed. I am essentially the friendly face of Engineering for Change regarding all outreach, sponsors, and other communications. What I love most about the committee is the strong sense of community we have as a result of working closely together and attending our socials."
     },
-    {
-        name: "Charlotte Tulley",
-        position: "Secertary",
-        photo: charlotte_photo,
-        bio: "I manage the administration and communication for the group, keeping records of meetings and membership. I also handle correspondence, circulate notices, and ensure compliance with all rules and regulations. I am the main point of contact between the president, project leads, and committee members. What I love most about being part of this society and its committee is the strong sense of community it fosters."
-    },
+    // {
+    //     name: "Charlotte Tulley",
+    //     position: "Secertary",
+    //     photo: charlotte_photo,
+    //     bio: "I manage the administration and communication for the group, keeping records of meetings and membership. I also handle correspondence, circulate notices, and ensure compliance with all rules and regulations. I am the main point of contact between the president, project leads, and committee members. What I love most about being part of this society and its committee is the strong sense of community it fosters."
+    // },
     {
         name: "Jackie Liang",
         position: "Treasurer",
@@ -26,7 +26,7 @@ export const exec_committee = [
     }
 ]
 
-export const non_exec_committee = [
+export const nonExecCommittee = [
     {
         name: "Henri Ribeiro",
         position: "Funding Officer",
