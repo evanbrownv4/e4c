@@ -31,7 +31,7 @@ function ContactMethods({ contacts } : { contacts: Array<ContactMethod> }) {
 export default function Contact() {
     return (
         <PageContainer>
-            <h1 className="text-6xl text-center mb-4">Get in Touch</h1>
+            <h1 className="text-5xl font-bold text-center mb-4">Get in Touch</h1>
             <p className="text-xl text-left">
                 E4C are always looking for sponsors and collaborators. Reach out to us
                 through the channels below or explore our sponsor partnerships.

@@ -28,7 +28,7 @@ function ProjectCards({ projects } : {projects: Array<Project> }) {
 export default function Projects() {
     return (
         <PageContainer>
-            <h2 className="text-5xl text-center mb-4">See our supported projects</h2>
+            <h2 className="text-5xl font-bold text-center mb-4">See our supported projects</h2>
             <p className="text-xl text-left">
                 We are proud to run eight diverse, student-led projects, each one tackling a different aspect of sustainability and global development. From aquaponics farming that explores innovative ways to grow food sustainably, to wind turbine construction that champions renewable energy, to water sanitation initiatives that address one of the world’s most urgent needs, our projects cover a wide spectrum of challenges.
                 <br/>Every project is designed and led by students, giving members the chance to take ownership, apply their skills, and learn by doing. Whether your passion lies in mechanical design, environmental science, policy, or community engagement, there’s space for you to get involved.

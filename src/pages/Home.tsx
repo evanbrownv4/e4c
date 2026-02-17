@@ -117,7 +117,7 @@ export default function Home() {
                     <p className="text-xl">
                         Sponsorships play a vital role in enabling Engineering for Change to turn ideas into impactful, real-world projects. With the support of our sponsors, we are able to fund materials, training, competitions, and international outreach that would otherwise be out of reach for students. These partnerships not only empower our members to develop practical engineering skills, but also help drive sustainable solutions that benefit communities and the environment.
                     </p>
-                    <h3 className="text-3xl">Current Sponsors</h3>
+                    <h3 className="text-3xl font-bold text-neutral-900 text-center mb-8">Current Sponsors</h3>
                     <div className="grid grid-auto-small">
                         {curSponsors.map((sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} className=""/>

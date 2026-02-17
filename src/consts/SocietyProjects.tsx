@@ -36,7 +36,7 @@ export const projects = [
     {
         name: "Tide Tech",
         catchphrase: "Offshore wind for small states, big impact",
-        description: "We design floating offshore wind turbines to help power small island nations sustainably.",
+        description: "We design underwater structures to help power small island nations sustainably.",
         photo: tide_tech
     },
     {

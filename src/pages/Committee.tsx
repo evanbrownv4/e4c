@@ -31,7 +31,7 @@ export default function Committee() {
 
     return (
     <PageContainer>
-        <h1 className="text-6xl text-center mb-4">Meet the Committee</h1>
+        <h1 className="text-6xl font-bold text-center mb-4">Meet the Committee</h1>
         <p className="text-xl text-left">
             At Engineering for Change (E4C), we believe our society is more than just projects and problem-solving - it's a community built on collaboration, support, and shared purpose. The committee works hard to create a welcoming environment where every member feels included and valued, whether they’re a first-year just getting started or a project lead managing a team.
             <br/>Our role goes beyond administration. We're here to provide guidance, resources, and encouragement for all of our members. That could mean helping a project team secure funding, connecting students with external partners, or simply checking in on wellbeing during busy times of the academic year. We also organize events, socials, and workshops to ensure E4C is a space where friendships are formed and ideas can flourish.    
@@ -39,12 +39,12 @@ export default function Committee() {
         </p>
 
         <div className="col gap-4">
-            <h2 className="text-3xl text-left mt-4">Executive Committee</h2>
+            <h2 className="text-3xl font-bold text-left mt-4">Executive Committee</h2>
             <CommitteeMemberCards committeeMembers={execCommittee}/>
         </div>
 
         <div className="col gap-4">
-            <h2 className="text-3xl text-left mt-4">Committee</h2>
+            <h2 className="text-3xl font-bold text-left mt-4">Committee</h2>
             <CommitteeMemberCards committeeMembers={nonExecCommittee}/>
         </div>
     </PageContainer>
