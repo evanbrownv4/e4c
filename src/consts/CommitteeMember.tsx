@@ -1,5 +1,5 @@
 import amelia_photo from "../assets/committee_amelia.jpeg"
-import charlotte_photo from "../assets/committee_charlotte.jpeg"
+// import charlotte_photo from "../assets/committee_charlotte.jpeg"
 import jackie_photo from "../assets/committee_jackie.jpeg"
 import henri_photo from "../assets/committee_henri.jpeg"
 import thian_photo from "../assets/committee_thian.jpg"
@@ -45,10 +45,10 @@ export const nonExecCommittee = [
         photo: kelly_photo,
         bio: "My role in the society is to publicize and share our events with both university members and external potential partners. I also convey E4C's fun and nurturing culture through our posts and document our progress throughout the year. The best part of being on the committee is finding a new community within the university to work and have fun with, solving problems together, and learning along the way!!"
     },
-    {
-        name: "Charrlotte Tulley",
-        position: "Social Secretary",
-        photo: charlotte_photo,
-        bio: "I organize and coordinate social events and activities for the society. I plan gatherings, book venues, and promote events to encourage member participation. My role focuses on building community spirit and ensuring members have enjoyable opportunities to connect. Planning socials as Social Secretary has been incredibly fun, and I’m very excited for the year ahead!"
-    }
+    // {
+    //     name: "Charrlotte Tulley",
+    //     position: "Social Secretary",
+    //     photo: charlotte_photo,
+    //     bio: "I organize and coordinate social events and activities for the society. I plan gatherings, book venues, and promote events to encourage member participation. My role focuses on building community spirit and ensuring members have enjoyable opportunities to connect. Planning socials as Social Secretary has been incredibly fun, and I’m very excited for the year ahead!"
+    // }
 ]
