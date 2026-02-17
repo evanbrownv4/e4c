@@ -11,7 +11,7 @@ export default function Home() {
         <div className="">
             {/* Hero Section */}
             <section className="min-h-screen bg-[url(../assets/leafy_checkerbox.png)] bg-cover bg-center flex flex-col justify-center items-center text-center">
-                <h1 className="text-5xl font-bold text-neutral-900 mb-4">Engineering For Change</h1>
+                <h1 className="text-6xl font-bold text-neutral-900 mb-4">Engineering For Change</h1>
                 <p className="text-2xl text-neutral-800">Innovating for a sustainable future.</p>
             </section>
 
