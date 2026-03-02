@@ -1,4 +1,5 @@
 import amelia_photo from "../assets/committee_amelia.jpeg"
+import zain_photo from "../assets/committee_zain.jpg"
 import jackie_photo from "../assets/committee_jackie.jpeg"
 import henri_photo from "../assets/committee_henri.jpeg"
 import thian_photo from "../assets/committee_thian.jpg"
@@ -13,12 +14,12 @@ export const execCommittee = [
         photo: amelia_photo,
         bio: "My role in E4C is to chair meetings, oversee all committee positions, and provide help and support wherever needed. I am essentially the friendly face of Engineering for Change regarding all outreach, sponsors, and other communications. What I love most about the committee is the strong sense of community we have as a result of working closely together and attending our socials."
     },
-    // {
-    //     name: "Charlotte Tulley",
-    //     position: "Secertary",
-    //     photo: charlotte_photo,
-    //     bio: "I manage the administration and communication for the group, keeping records of meetings and membership. I also handle correspondence, circulate notices, and ensure compliance with all rules and regulations. I am the main point of contact between the president, project leads, and committee members. What I love most about being part of this society and its committee is the strong sense of community it fosters."
-    // },
+    {
+        name: "Zain Mohamed",
+        position: "Secertary",
+        photo: zain_photo,
+        bio: "My role in E4C is to manage bookings, meetings, and any other admin people need help with. I also help with outreach, and any other outside communication. I love how friendly and welcoming the members are, and how we work on projects that actually make a difference to our community."
+    },
     {
         name: "Jackie Liang",
         position: "Treasurer",
